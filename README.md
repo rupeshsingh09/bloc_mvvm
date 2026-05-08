@@ -1,16 +1,79 @@
-# bloc_clean
+# 🚀 Flutter BLoC MVVM Architecture
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-Framework-blue?logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-Language-blue?logo=dart)
+![BLoC](https://img.shields.io/badge/State%20Management-BLoC-orange)
+![Architecture](https://img.shields.io/badge/Architecture-MVVM-green)
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 About
 
-A few resources to get you started if this is your first Flutter project:
+This project demonstrates **MVVM (Model-View-ViewModel)** architecture in Flutter using **BLoC state management** with a clean and scalable structure.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The project is designed for learning scalable Flutter app development and understanding separation of concerns using BLoC pattern.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Features
+
+* 🔹 BLoC State Management
+* 🔹 MVVM Architecture
+* 🔹 API Integration
+* 🔹 Clean Code Structure
+* 🔹 Reusable Components
+* 🔹 Authentication Flow
+* 🔹 Scalable Folder Structure
+
+---
+
+## 🛠 Tech Stack
+
+* 💙 Flutter
+* 🎯 Dart
+* 🔄 flutter_bloc
+* 🌐 REST API
+
+---
+
+## 📂 Folder Structure
+
+```text id="bxr1rf"
+lib/
+ ├── bloc/
+ ├── config/
+ ├── models/
+ │    └── user/
+ ├── repository/
+ │    └── auth/
+ ├── services/
+ ├── utils/
+ ├── views/
+ └── main.dart
+```
+
+---
+
+## 📖 Architecture Used
+
+### 🔹 MVVM Architecture
+
+* **Model** → Handles data layer
+* **View** → UI layer
+* **ViewModel / BLoC** → Business logic & state management
+
+### 🔹 BLoC Pattern
+
+Business logic is separated from UI using events and states.
+
+---
+
+
+## 🎯 Purpose
+
+This project is created for:
+
+* Flutter architecture learning
+* Interview preparation
+* Understanding scalable app development
+
